@@ -1,18 +1,19 @@
-# STARTigniter
-STARTigniter is a All you need to Start Project Codeigniter 3 with Private Areas 
+# TEMPLATigniter
+TEMPLATigniter is a Start Project in Codeigniter 3 + Smarty + Startigniter (Private Areas) 
 
 ## What are inside?
 - [Codeigniter 3](https://github.com/bcit-ci/CodeIgniter).
 - HMVC third-party (modular applications)
-- Ion-auth
+- Ion-auth;
+- Smarty (Template Engine)
 - JS Libraries (Modernizr,Jquery,Bootstrap);
 
 #Why STARTigniter?
 - Private Areas: 
-	Administrator->Full user and groups manager
-	Member->Basic  Private HomePage 
+- Administrator->Full user and groups manager
+- Member->Basic  Private HomePage 
 - Public Area: 
-	Basic Website HomePage 
+- Basic Website Template 
 
 # Get Start
 - Fork Project

@@ -22,13 +22,16 @@ class Start extends APP_Public  {
 	 */
 	public function _remap()
 	{
-		
-		$this->load->view('common/head.php');
-		$this->load->view('partials/navbar.php');
-		$this->load->view('partials/header.php');
-		$this->load->view('partials/body.php');
-		$this->load->view('partials/footer.php');
-		$this->load->view('common/foot.php');
+		$this->load->library('parser');
+		$data['title'] = "TEMPLATigniter 0.1";
+		$data['body']  = "This is body text to show that the Smarty Parser works!";
+		$data['cdn'] = CDN;
+		$data['baseurl']=base_url();		
+		$this->parser->parse("common/head.tpl", $data);
+		$this->parser->parse("common/navbar.tpl", $data);
+		$this->parser->parse("header.tpl", $data);
+		$this->parser->parse("body.tpl", $data);
+		$this->parser->parse("common/footer.tpl", $data);
 	}
 	
 }
